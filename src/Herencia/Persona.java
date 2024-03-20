@@ -21,12 +21,12 @@ public class Persona {
         this.telefono = telefono;
     }
 
-    public int getId() {
+    public int getIdJefe() {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setIdJefe(int idJefe) {
+        this.id = idJefe;
     }
 
     public String getDni() {
