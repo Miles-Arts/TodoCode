@@ -1,11 +1,9 @@
 package ClaseAbstracta;
 
 /*public class Cuadrado extends Figura {*/
-public class Cuadrado implements Figura {
-
+public class Cuadrado implements Figura,  Dibujable {
 
     private double lado;
-
     public Cuadrado() {
     }
 
@@ -22,5 +20,10 @@ public class Cuadrado implements Figura {
     public double calcularArea() {
         double resultado = lado * lado;
         return resultado;
+    }
+
+    @Override
+    public void dibujar() {
+        System.out.println("Estoy dibujando un cuadrado");
     }
 }
