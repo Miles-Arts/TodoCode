@@ -1,5 +1,6 @@
 package ExampleArrayAndLinkedList;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -17,6 +18,11 @@ public class LinkedListz {
         listaArray.add(new Personas(4, "Sol", 25));
 
         //System.out.println(listaArray.getNombre());
+
+        System.out.println("------ArrayList------");
+        for(Personas persona : listaArray) {
+            System.out.println("Sin Removed " + persona.getNombre());
+        }
         //System.out.println("----LinkedList----");
 
 
@@ -25,7 +31,10 @@ public class LinkedListz {
         listaLinked.add(new Personas(2, "Juanita", 22));
         listaLinked.add(new Personas(3, "Luciana", 30));
         listaLinked.add(new Personas(4, "Sol", 25));
-        System.out.println(listaLinked);
+        System.out.println("------LinkedList------");
+        for(Personas persona : listaLinked) {
+            System.out.println("Sin Removed " + persona.getNombre());
+        }
 
         //Remove ArrayList number 1
         listaArray.remove(1);
@@ -49,5 +58,28 @@ public class LinkedListz {
             for(Personas persona : listaLinked) {
                 System.out.println("Prueba " + persona.getNombre());
             }
+
+            //Tamaño Lista
+        System.out.println("----Qué tamaño tienen las LIST");
+        System.out.println("ArrayList " + listaArray.size());
+        System.out.println("LinkedList " + listaLinked.size());
+
+        //Obtener Firys Objeto Object
+        System.out.println("----Primer y última OBJETO (Sólo LINKED LIST----");
+
+        System.out.println("Primero de LinkedList " + listaLinked);
+        System.out.println("Último de LinkedList " + listaLinked.toString());
+
+        //Borrar toda la LISTA
+        System.out.println("----Borrando LISTAS----");
+        listaArray.clear();
+        listaLinked.clear();
+
+        //Comprobando si está vacía
+        System.out.println("----¿Está vacía la lista?----");
+        System.out.println("ArrayList " + listaArray.isEmpty());
+        System.out.println("LinkedList " + listaLinked.isEmpty());
+
+
     }
 }
