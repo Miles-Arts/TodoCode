@@ -64,11 +64,11 @@ public class LinkedListz {
         System.out.println("ArrayList " + listaArray.size());
         System.out.println("LinkedList " + listaLinked.size());
 
-        //Obtener Firys Objeto Object
+        //Obtener Firts Objeto Object
         System.out.println("----Primer y última OBJETO (Sólo LINKED LIST----");
 
-        System.out.println("Primero de LinkedList " + listaLinked);
-        System.out.println("Último de LinkedList " + listaLinked.toString());
+        System.out.println("Primero de LinkedList " + ((LinkedList<Personas>) listaLinked).getFirst().toString());
+        System.out.println("Último de LinkedList " + ((LinkedList<Personas>) listaLinked).getLast().toString());
 
         //Borrar toda la LISTA
         System.out.println("----Borrando LISTAS----");

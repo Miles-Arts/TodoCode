@@ -39,4 +39,13 @@ public class Personas {
     public void setEdad(int edad) {
         this.edad = edad;
     }
+
+    @Override
+    public String toString() {
+        return "Personas{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                '}';
+    }
 }
