@@ -3,6 +3,7 @@ package PruebaHashMapp;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class PruebaHashMap {
 
     public static void main(String[] arg) {
@@ -16,6 +17,9 @@ public class PruebaHashMap {
         mapaEmpleados.put(101, "Rocio");
         mapaEmpleados.put(102, "Manuela");
         mapaEmpleados.put(103, "Nataly");
+        mapaEmpleados.put(104, "Lorena");
+        mapaEmpleados.put(105, "Ludmila");
+
 
 
         //VALUE
@@ -38,7 +42,7 @@ public class PruebaHashMap {
 
         //si quiero saber el Valor STRING
         //Debo declarar una variable con STRING
-        String nombre = mapaEmpleados.get(1003);
+        String nombre = mapaEmpleados.get(100);
 
         if(mapaEmpleados.containsValue(nombre)) {
             System.out.println("El empleado buscado es: " + nombre);
@@ -46,7 +50,13 @@ public class PruebaHashMap {
             System.out.println("El empleado buscado no existe: "  + nombre);
         }
 
+        System.out.println(mapaEmpleados);
 
+        mapaEmpleados.remove(103);
+
+
+        System.out.println("--------------------");
+        System.out.println(mapaEmpleados);
 
 
     }
