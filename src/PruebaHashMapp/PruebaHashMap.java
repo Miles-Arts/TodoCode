@@ -38,14 +38,12 @@ public class PruebaHashMap {
 
         //si quiero saber el Valor STRING
         //Debo declarar una variable con STRING
-        String nombre = mapaEmpleados.get(100);
-
-
+        String nombre = mapaEmpleados.get(1003);
 
         if(mapaEmpleados.containsValue(nombre)) {
             System.out.println("El empleado buscado es: " + nombre);
         } else {
-            System.out.println("El empleado buscado no existe");
+            System.out.println("El empleado buscado no existe: "  + nombre);
         }
 
 
