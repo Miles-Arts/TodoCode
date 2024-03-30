@@ -22,12 +22,10 @@ public class Excepciones {
         //VECTOR
         int edades [] = {25, 19, 29, 34};
 
-
-
         try {
             System.out.println("La edad de la posición 4 es: " + edades[4]);
         } catch (Exception e) {
-            System.out.println("Este índice no existe: " + edades[4]);
+            System.out.println("Este índice no existe:");
         }
     }
 }
