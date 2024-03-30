@@ -54,7 +54,6 @@ public class PruebaHashMap {
 
         mapaEmpleados.remove(103);
 
-
         System.out.println("--------------------");
         System.out.println(mapaEmpleados);
 
