@@ -17,6 +17,7 @@ public class Relaciones {
 
         Propietario propietario1 = new Propietario();
         Propietario propietario2 = new Propietario();
+        Propietario propietario3 = new Propietario();
 
         propietario1.setId(20L);
         propietario1.setName("Luciana Mirrol");
@@ -26,8 +27,13 @@ public class Relaciones {
         propietario2.setName("Luca");
         propietario2.setLastName("Rittovi");
 
+        propietario3.setId(22L);
+        propietario3.setName("Carol");
+        propietario3.setLastName("de Paula");
+
         listaPropietarios.add(propietario1);
         listaPropietarios.add(propietario2);
+        listaPropietarios.add(propietario3);
 
         automovil.setListaPropietarios(listaPropietarios);
 
