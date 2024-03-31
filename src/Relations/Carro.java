@@ -8,16 +8,18 @@ public class Carro {
     private String marca;
     private String modelo;
 
-    private List<Propietaria> litaPropietarias;
+    private List<Propietaria> listaPropietarias;
 
     public Carro() {
     }
 
-    public Carro(Long id, String marca, String modelo, List<Propietaria> litaPropietarias) {
+
+
+    public Carro(Long id, String marca, String modelo, List<Propietaria> listaPropietarias) {
         this.id = id;
         this.marca = marca;
         this.modelo = modelo;
-        this.litaPropietarias = litaPropietarias;
+        this.listaPropietarias = listaPropietarias;
     }
 
     /*  public Carro(Long id, String marca, String modelo) {
@@ -26,12 +28,12 @@ public class Carro {
         this.modelo = modelo;
     }*/
 
-    public List<Propietaria> getLitaPropietarias() {
-        return litaPropietarias;
+    public List<Propietaria> getListaPropietarias() {
+        return listaPropietarias;
     }
 
-    public void setLitaPropietarias(List<Propietaria> litaPropietarias) {
-        this.litaPropietarias = litaPropietarias;
+    public void setListaPropietarias(List<Propietaria> listaPropietarias) {
+        this.listaPropietarias = listaPropietarias;
     }
 
     public Long getId() {

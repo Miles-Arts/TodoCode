@@ -9,6 +9,15 @@ public class Propietaria {
     public Propietaria() {
     }
 
+    @Override
+    public String toString() {
+        return "Propietaria{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                '}';
+    }
+
     public Propietaria(Long id, String nombre, String apellido) {
         this.id = id;
         this.nombre = nombre;
