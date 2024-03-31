@@ -10,6 +10,17 @@ public class Carro {
 
     private List<Propietaria> listaPropietarias;
 
+
+    @Override
+    public String toString() {
+        return "Carro{" +
+                "id=" + id +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", listaPropietarias=" + listaPropietarias +
+                '}';
+    }
+
     public Carro() {
     }
 
