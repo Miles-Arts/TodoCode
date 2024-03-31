@@ -20,16 +20,18 @@ public class Relaciones {
 
         propietario1.setId(20L);
         propietario1.setName("Luciana Mirrol");
-        propietario1.getLastName("Mirrol");
+        propietario1.setLastName("Mirrol");
 
         propietario2.setId(21L);
         propietario2.setName("Luca");
-        propietario2.getLastName("Rittovi");
+        propietario2.setLastName("Rittovi");
 
         listaPropietarios.add(propietario1);
         listaPropietarios.add(propietario2);
 
         automovil.setListaPropietarios(listaPropietarios);
+
+        System.out.println("El auto " + automovil.getMarca() + " " + automovil.getModelo() + " tiene como propietarios a: " + automovil.getListaPropietarios().toString());
 
     }
 }

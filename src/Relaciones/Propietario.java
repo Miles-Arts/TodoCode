@@ -6,8 +6,19 @@ public class Propietario {
     private String name;
     private String lastName;
 
+    @Override
+    public String toString() {
+        return "Propietario{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
+
     public Propietario() {
     }
+
+
 
     public Propietario(Long id, String name, String lastName) {
         this.id = id;
