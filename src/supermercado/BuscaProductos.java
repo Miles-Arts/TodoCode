@@ -12,8 +12,7 @@ public class BuscaProductos {
 
         List<Productos> listaProductos = new ArrayList<Productos>();
 
-        Productos producto1 = new Productos(001, "Pollo", "La Braza Roja", 1, "Carnes");
-
+        Productos producto1 = new Productos(001, "Pollo", "La Brasa Roja", 1, "Carnes");
         Productos producto2 = new Productos(002, "Manzana", "Frutas Colombia", 1, "Frutas");
         Productos producto3 = new Productos(003, "Durazno", "Frutas Colombia", 1, "Frutas");
         Productos producto4 = new Productos(004, "Pescado", "Pescadería Jaramillo", 1, "Carnes");
