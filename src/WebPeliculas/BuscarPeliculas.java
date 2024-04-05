@@ -51,11 +51,13 @@ public class BuscarPeliculas {
             System.out.println("Genero: " + listasMovies.getCategoria());
             System.out.println(" ");
 
-
         }
 
-
-
-
+        System.out.println("------Películas de Acción-----");
+        for( Productos listasAccion : listaProductos ) {
+            if( listasAccion.getCategoria().equals("Acción")) {
+                System.out.println(listasAccion.toString());
+            }
+        }
     }
 }
