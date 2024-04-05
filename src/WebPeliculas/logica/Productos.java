@@ -58,4 +58,15 @@ public class Productos {
     public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
+
+    @Override
+    public String toString() {
+        return "Productos{" +
+                "codigo=" + codigo +
+                ", titulo='" + titulo + '\'' +
+                ", productora='" + productora + '\'' +
+                ", anioPelicula=" + anioPelicula +
+                ", categoria='" + categoria + '\'' +
+                '}';
+    }
 }
