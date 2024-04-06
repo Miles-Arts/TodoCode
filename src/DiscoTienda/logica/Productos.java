@@ -59,4 +59,15 @@ public class Productos {
     public void setCategoriaMusica(String categoriaMusica) {
         this.categoriaMusica = categoriaMusica;
     }
+
+    @Override
+    public String toString() {
+        return "Productos{" +
+                "codigo=" + codigo +
+                ", grupoMusica='" + grupoMusica + '\'' +
+                ", albumMusica='" + albumMusica + '\'' +
+                ", anio=" + anio +
+                ", categoriaMusica='" + categoriaMusica + '\'' +
+                '}';
+    }
 }
