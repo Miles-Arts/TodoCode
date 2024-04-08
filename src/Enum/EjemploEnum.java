@@ -17,7 +17,7 @@ public class EjemploEnum {
 
 
         for( Color colores : Color.values() ) {
-            System.out.println(colores);
+            System.out.println("El color es: " + colores);
         }
 
 
