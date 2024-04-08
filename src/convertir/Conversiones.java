@@ -38,11 +38,23 @@ public class Conversiones {
         double intPrecio = Double.parseDouble (precio);
 
         System.out.println("String a INT: " + intCantidad);
-        System.out.println("String a INT: " + intPrecio);
-        System.out.println("El total es: "+ intCantidad * intPrecio);
+        System.out.println("String a DOUBLE: " + intPrecio);
+        System.out.println("El total es: $" + (intCantidad * intPrecio));
+
+        int edad = 20;
+        double estaturaPersona = 1.70;
+
+        System.out.println(edad);
+        System.out.println(estaturaPersona);
+
+        String edadString = String.valueOf(edad);
+        String estaturaPersonaa = String.valueOf(estaturaPersona);
+
+        System.out.println("La edad es: " + edadString);
+        System.out.println("Estatura persona: " + estaturaPersonaa);
 
 
-
+        //PARSEO STRING a INT
 
     }
 }
