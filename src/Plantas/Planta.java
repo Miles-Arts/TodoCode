@@ -50,6 +50,6 @@ public abstract class Planta {
     }
 
     //VOID tipo de dato que RETORNA
-    public abstract void decirLoQueSoy();
+    protected abstract void decirLoQueSoy();
 
 }

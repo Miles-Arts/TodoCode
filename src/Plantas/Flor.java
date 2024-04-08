@@ -65,5 +65,7 @@ public class Flor extends Planta{
     @Override
     public void decirLoQueSoy() {
 
+        System.out.println("Soy un Flor");
+
     }
 }
