@@ -2,6 +2,7 @@ package Enum;
 
 public class EjemploEnumDos {
 
+    //Nombre de enum en MAYUSCULA CAMEL-CASE
     enum ListaDias {
         LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO, DOMINGO
     }
