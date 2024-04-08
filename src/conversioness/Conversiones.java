@@ -37,9 +37,11 @@ public class Conversiones {
         int edad = 30;
         double estatura = 1.67;
 
-        String edadPErsona = String.valueOf(edad).;
+        String edadString = String.valueOf(edad);
+        String estaturaString = String.valueOf(estatura);
 
-        System.out.println(estatura);
+        System.out.println("Edad persona: " + edadString);
+        System.out.println("Estatura Persona: " + estaturaString);
 
 
     }
